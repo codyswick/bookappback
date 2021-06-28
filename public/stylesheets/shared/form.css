@@ -76,3 +76,33 @@
     color: var(--color-text-light);
     font-size: inherit;
   }
+
+  @media (max-width: 600px) {
+    .form-row{
+      display: inline-block;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    }
+    .form-item{
+      width: 100%;
+    }
+    .form-item input{
+      flex-direction: column;
+      align-items: stretch;
+      
+      margin: 0 -20px;
+    }
+    form{
+      
+      word-wrap: no-wrap;
+      display: inline-block;
+      padding-left: 0;
+    }
+ 
+   
+
+  }

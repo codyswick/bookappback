@@ -58,3 +58,10 @@
     grid-area: author;
     justify-self: stretch;
   }
+
+  @media (max-width: 600px) {
+.book-cover{
+  width: 100%;
+}
+
+  }
