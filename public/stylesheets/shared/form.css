@@ -78,31 +78,35 @@
   }
 
   @media (max-width: 600px) {
+    .form{
+      align-items: left;
+    }
+
     .form-row{
-      display: inline-block;
+      display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
-      height: 100%;
-      text-align: center;
       width: 100%;
+      height: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      padding-left:15px;
+      padding-right:15px;
     }
     .form-item{
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+    }
+
+    select{
+      width: 100%;
+      margin-left: 0;
+    }
+    input{
       width: 100%;
     }
-    .form-item input{
-      flex-direction: column;
-      align-items: stretch;
-      
-      margin: 0 -20px;
-    }
-    form{
-      
-      word-wrap: no-wrap;
-      display: inline-block;
-      padding-left: 0;
-    }
- 
-   
-
   }
