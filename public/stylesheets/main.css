@@ -1,5 +1,5 @@
 @import 'shared/variables.css';
-
+@import 'shared/slider.css';
 @import 'shared/header.css';
 @import 'shared/buttons.css';
 @import 'shared/form.css';
@@ -18,7 +18,7 @@
 
 body {
   background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light));
-  width: 100vw;
+  
 }
 
 .container {
@@ -61,7 +61,7 @@ body {
     align-items: center;
   }
  body{
-   width: 100%;
+   
    align-items: center;
    
  }
