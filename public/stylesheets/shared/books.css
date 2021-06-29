@@ -66,7 +66,7 @@
   
     grid-column: auto;
     grid-row: auto;
-    width: 100%;
+    
 }
 .book-details {
   display: grid;
